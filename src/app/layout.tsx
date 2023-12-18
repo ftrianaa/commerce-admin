@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import NavigationBar from './NavigationBar'
 import { Providers } from './providers'
+import { ColorModeScript } from '@chakra-ui/react'
+import theme from './theme'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <NavigationBar/> */}
         <main className='p-5'>
+             <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Providers>{children}</Providers>
         </main>
         </body>

@@ -43,11 +43,11 @@ import {
 import { HSeparator } from "../components/separator/Separator";
 import DefaultAuth from "../components/layouts/auth/Default";
 // Assets
-import illustration from "../../../public/assets/img/auth/auth.png";
 import { FcGoogle } from "react-icons/fc";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { RiEyeCloseLine } from "react-icons/ri";
 import Link from "next/link";
+import Document from "../document";
 
 function LoginPage() {
   // Chakra color mode

@@ -76,7 +76,7 @@ function LoginPage() {
   }, []); 
   
   return (
-    <DefaultAuth>
+  //   <DefaultAuth>
       <Flex
         maxW={{ base: "100%", md: "max-content" }}
         w='100%'
@@ -249,7 +249,7 @@ function LoginPage() {
           </Flex>
         </Flex>
       </Flex>
-    </DefaultAuth>
+    // </DefaultAuth>
   );
 }
 

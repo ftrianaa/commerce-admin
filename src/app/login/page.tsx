@@ -47,7 +47,7 @@ import { FcGoogle } from "react-icons/fc";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { RiEyeCloseLine } from "react-icons/ri";
 import Link from "next/link";
-import Document from "../document";
+// import Document from "../document";
 
 function LoginPage() {
   // Chakra color mode

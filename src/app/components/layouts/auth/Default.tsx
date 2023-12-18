@@ -12,8 +12,8 @@ import Image from 'next/image';
 
 
 
-function AuthIllustration(props: { children: JSX.Element | string; illustrationBackground: string }) {
-	const { children, illustrationBackground } = props;
+function AuthIllustration(props: { children: JSX.Element | string; }) {
+	const { children } = props;
 	// Chakra color mode
 	return (
 		<Flex position='relative' h='max-content'>

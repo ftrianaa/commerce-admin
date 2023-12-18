@@ -21,7 +21,7 @@
 
 */
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 // Chakra imports
 import {
@@ -68,6 +68,13 @@ function LoginPage() {
   // );
   const [show, setShow] = useState(false);
   const handleClick = () => setShow(!show);
+
+  useEffect(() => {
+  return()=>{
+      setShow(false)
+    }
+  }, []); 
+  
   return (
     <DefaultAuth>
       <Flex
